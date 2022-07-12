@@ -24,6 +24,8 @@ This is a project to develop the UdaPeople product, a revolutionary concept in H
           1. Job failed because of compile errors. [SCREENSHOT01].
           2. Job failed because of unit tests. [SCREENSHOT02].
               for the backend and [SCREENSHOT02-2] for the frontend.
+          3. Job that failed because of vulnerable packages. [SCREENSHOT03]
+              for the backend and [SCREENSHOT03-2] for the frontend.
 
 
 
