@@ -15,7 +15,13 @@ This is a project to develop the UdaPeople product, a revolutionary concept in H
                 * Diagram of CI/CD Pipeline we will be building. (UdaPeople Pipeline.png) and (UdaPeople Pipeline.drawio)
 
 ## Section 2 - 
-      Geting Started
+    # Geting Started:
+      1- Building Frontend and Backend.
+
+# ScreenShots
+    On the root Folder my screenshots folder contains:-
+      - screenshots in JPG, named using the screenshot number listed as follow:
+          1. Job failed because of compile errors. [SCREENSHOT01].
 
 
 
