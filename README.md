@@ -22,6 +22,8 @@ This is a project to develop the UdaPeople product, a revolutionary concept in H
     On the root Folder my screenshots folder contains:-
       - screenshots in JPG, named using the screenshot number listed as follow:
           1. Job failed because of compile errors. [SCREENSHOT01].
+          2. Job failed because of unit tests. [SCREENSHOT02].
+              for the backend and [SCREENSHOT02-2] for the frontend.
 
 
 
