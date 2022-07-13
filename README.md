@@ -22,7 +22,11 @@ This is a project to develop the UdaPeople product, a revolutionary concept in H
       4- Email Alert Settings.
     # Deployment:
       1- Docker and Postgres db added locally.
-      2- Backend dependancies.
+      2- Backend node dependancies.
+      3- Frontend node dependancies.
+      4- set enviromental variables.
+      5- Run DB migration.
+
 
 # ScreenShots
     On the root Folder my screenshots folder contains:-
