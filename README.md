@@ -17,6 +17,9 @@ This is a project to develop the UdaPeople product, a revolutionary concept in H
 ## Section 2 - 
     # Geting Started:
       1- Building Frontend and Backend.
+      2- Unit Test Phase.
+      3- Analysis and vulnerability scan.
+      4- Email Alert Settings.
 
 # ScreenShots
     On the root Folder my screenshots folder contains:-
