@@ -20,6 +20,9 @@ This is a project to develop the UdaPeople product, a revolutionary concept in H
       2- Unit Test Phase.
       3- Analysis and vulnerability scan.
       4- Email Alert Settings.
+    # Deployment:
+      1- Docker and Postgres db added locally.
+      2- Backend dependancies.
 
 # ScreenShots
     On the root Folder my screenshots folder contains:-
