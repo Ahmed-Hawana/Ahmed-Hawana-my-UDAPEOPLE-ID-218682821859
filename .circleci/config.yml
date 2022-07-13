@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  slack: Circle-CI/slack@4.9.3
+  slack: Circle-CI/slack@me-x0l9453
 
 commands:
   notify_on_failure:
