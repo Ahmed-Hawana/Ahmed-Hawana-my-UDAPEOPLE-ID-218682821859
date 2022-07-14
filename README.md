@@ -20,15 +20,18 @@ This is a project to develop the UdaPeople product, a revolutionary concept in H
       2- Unit Test Phase.
       3- Analysis and vulnerability scan.
       4- Email Alert Settings.
-    # Deployment:
+    # Local Deployment:
       1- Docker and Postgres db added locally.
       2- Backend node dependancies.
       3- Frontend node dependancies.
       4- set enviromental variables.
       5- Run DB migration.
       6- lunch in development mode.
-      7- build applications on production.
-
+      7- build applications on production backend and frontend.
+    # Starting with AWS:
+      1- create keypair "udacity"
+      2- create IAM user.
+      3- Add postgres SQL DB in RDS which is public.
 
 # ScreenShots
     On the root Folder my screenshots folder contains:-
