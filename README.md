@@ -26,6 +26,8 @@ This is a project to develop the UdaPeople product, a revolutionary concept in H
       3- Frontend node dependancies.
       4- set enviromental variables.
       5- Run DB migration.
+      6- lunch in development mode.
+      7- build applications on production.
 
 
 # ScreenShots
