@@ -29,9 +29,16 @@ This is a project to develop the UdaPeople product, a revolutionary concept in H
       6- lunch in development mode.
       7- build applications on production backend and frontend.
     # Starting with AWS:
-      1- create keypair "udacity"
-      2- create IAM user.
-      3- Add postgres SQL DB in RDS which is public.
+      1- create EC2 keypair "udacity"
+      2- create IAM user "udapeople-circleci-runner".
+      3- Add postgres SQL DB in AWS RDS which is public.
+      4- Cloudfront destribution
+            a- choose random string "a01a01", create public S3 bucket "udapeople-random string"
+            b- run circleci/files/cloudfront.yml
+      5- Circleci 
+            a- ADD the EC2 Key pair.
+            b- Setup environment variables. 
+
 
 # ScreenShots
     On the root Folder my screenshots folder contains:-
