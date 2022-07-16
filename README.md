@@ -55,7 +55,8 @@ This is a project to develop the UdaPeople product, a revolutionary concept in H
               for the backend and [SCREENSHOT02-2] for the frontend.
           3. Job that failed because of vulnerable packages. [SCREENSHOT03]
               for the backend and [SCREENSHOT03-2] for the frontend.
-          4. An alert from one of my failed builds. [SCREENSHOT04]          4. 
+          4. An alert from one of my failed builds. [SCREENSHOT04]          
+          5. Appropriate job failure for infrastructure creation. [SCREENSHOT05] 
 
 
 
