@@ -37,7 +37,14 @@ This is a project to develop the UdaPeople product, a revolutionary concept in H
             b- run circleci/files/cloudfront.yml
       5- Circleci 
             a- ADD the EC2 Key pair.
-            b- Setup environment variables. 
+            b- Setup environment variables.
+      6- Deploy Infrastructure
+            a- Install AWSCLI
+            b- Ensure Backend Infrastructure 
+            c- Ensure frontend Infrastructure
+            d- add ip address to Ansible Inventory
+            e- persist inventory file to workspace
+            f- add rollback command in case of failure
 
 
 # ScreenShots
