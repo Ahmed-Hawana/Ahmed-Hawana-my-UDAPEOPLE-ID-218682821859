@@ -7,8 +7,8 @@ Parameters:
     Type: String
 
 Resources:
-  InstanceSecurityGroup:
-    Type: AWS::EC2::SecurityGroupsskkhh
+  #InstanceSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
     Properties:
       GroupName: !Sub UdaPeople-${ID}
       GroupDescription: Allow port 22 and port 3030.
@@ -18,8 +18,8 @@ Resources:
           ToPort: 22
           CidrIp: 0.0.0.0/0
         - IpProtocol: tcp
-          FromPort: 53030
-          ToPort: 53030
+          FromPort: 3030
+          ToPort: 3030
           CidrIp: 0.0.0.0/0
 
   EC2Instance:
