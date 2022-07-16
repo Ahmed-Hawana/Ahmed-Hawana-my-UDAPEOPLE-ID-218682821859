@@ -44,7 +44,15 @@ This is a project to develop the UdaPeople product, a revolutionary concept in H
             c- Ensure frontend Infrastructure
             d- add ip address to Ansible Inventory
             e- persist inventory file to workspace
-            f- add rollback command in case of failure
+            f- add rollback command in case of failure:
+                  - Delete backend stack
+                  - Empty frontend bucket
+                  - Delete front end stack
+      7- Configure Infrastructure
+            a- Configure server Ansible playbook
+            b- Configure server Ansible task
+            c- Update Prometheus Node Exporter to latest version.
+            d- complete job steps in config.yml
 
 
 # ScreenShots
