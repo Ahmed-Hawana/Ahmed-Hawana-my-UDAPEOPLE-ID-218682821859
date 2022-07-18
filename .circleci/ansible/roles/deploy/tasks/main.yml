@@ -22,10 +22,6 @@
 
   register: execute_node
 
-- name: print message
-  debug:
-    msg: "{{ execute_node.stdout_lines }}"
-
 - name: "Add pm2 to path & startup services"
   become: true
   shell: |
