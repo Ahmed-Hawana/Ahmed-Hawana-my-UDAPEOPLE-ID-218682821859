@@ -53,6 +53,11 @@ This is a project to develop the UdaPeople product, a revolutionary concept in H
             b- Configure server Ansible task
             c- Update Prometheus Node Exporter to latest version.
             d- complete job steps in config.yml
+      8- Migration
+            a- create account on kvdb.io
+            b- Store kvdb bucket name on CircleCi
+            c- run migration script on Nodejs
+            d- add revert migration
 
 
 # ScreenShots
