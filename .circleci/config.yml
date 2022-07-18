@@ -329,7 +329,7 @@ jobs:
             ansible-playbook -i inventory.txt deploy-backend.yml
       
       - revert-migrations
-      - destroy_environment 
+      - destroy-environment 
 
 #   smoke-test:
 #     docker:
