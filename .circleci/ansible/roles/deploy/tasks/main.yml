@@ -20,8 +20,6 @@
     pm2 stop default
     pm2 start main.js 
 
-  register: execute_node
-
 - name: "Add pm2 to path & startup services"
   become: true
   shell: |
