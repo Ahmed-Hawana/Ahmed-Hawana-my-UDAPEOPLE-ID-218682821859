@@ -20,15 +20,15 @@ commands:
             unzip awscliv2.zip;
             sudo ./aws/install
   install_ansible:
-    description: install ansible V2
+    description: install ansible
     steps:
       - run:
-          name: install ansible V2
+          name: install ansible
           command:
-              sudo apt update;
-              sudo apt install software-properties-common;
-              sudo add-apt-repository --yes --update ppa:ansible/ansible;
-              sudo apt install ansible
+              sudo apt update -y
+              sudo apt install software-properties-common -y
+              sudo add-apt-repository --yes --update ppa:ansible/ansible
+              sudo apt install ansible -y
   install-nodejs:
     description: To install nodejs 13
     steps:

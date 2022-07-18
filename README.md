@@ -58,6 +58,10 @@ This is a project to develop the UdaPeople product, a revolutionary concept in H
             b- Store kvdb bucket name on CircleCi
             c- run migration script on Nodejs
             d- add revert migration
+      9- Deployment at production
+            a- Deploy backend production app to EC2 instance
+            b- Deploy frontend production static files to S3 bucket
+
 
 
 # ScreenShots
