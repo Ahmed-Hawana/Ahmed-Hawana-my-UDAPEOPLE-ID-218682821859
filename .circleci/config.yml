@@ -29,6 +29,18 @@ commands:
               sudo apt install software-properties-common;
               sudo add-apt-repository --yes --update ppa:ansible/ansible;
               sudo apt install ansible
+  install-nodejs:
+    description: To install nodejs 13
+    steps:
+      - run:
+          name: Install nodejs 13
+          command: |
+              # Install Nodejs lts version as a base for Nodejs 13
+              curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+              sudo apt install -y nodejs
+              # Use n version manager to use version 13
+              sudo npm install --global n
+              sudo n 13.8.0       
 
   destroy-environment:
     description: Destroy back-end and front-end cloudformation stacks given a workflow ID.
@@ -41,9 +53,10 @@ commands:
           name: Destroy environments
           when: on_fail
           command: |
-            aws cloudformation delete-stack --stack-name udapeople-backend-<< parameters.Workflow_ID >>
-            aws s3 rm "s3://udapeople-<<parameters.Workflow_ID>> --recursive
-            aws cloudformation delete-stack --stack-name udapeople-frontend-<< parameters.Workflow_ID >>
+            echo "Destroying environment: << parameters.workflow_id >> "
+            aws cloudformation delete-stack --stack-name udapeople-backend-${CIRCLE_WORKFLOW_ID:0:7}
+            aws s3 rb s3://udapeople-${CIRCLE_WORKFLOW_ID:0:7} --force 
+            aws cloudformation delete-stack --stack-name udapeople-frontend-${CIRCLE_WORKFLOW_ID:0:7}
 
   # revert-migrations:
   #   description: Revert the last migration if successfully run in the current workflow.
