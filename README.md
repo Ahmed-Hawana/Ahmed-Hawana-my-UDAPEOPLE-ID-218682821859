@@ -64,8 +64,10 @@ This is a project to develop the UdaPeople product, a revolutionary concept in H
       10- Smoketest
             a- run on backend
             b- run on frontend
-
-
+      11- Promotion and cleanup
+            a- store last workflow ID exported by initial stack to be used later.
+            b- Update initial stack cloudfront to point to the latest frontend bucket
+            c- after successful update, delete all old stacks.
 
 
 # ScreenShots
