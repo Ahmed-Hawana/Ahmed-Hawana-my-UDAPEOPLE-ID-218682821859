@@ -61,6 +61,10 @@ This is a project to develop the UdaPeople product, a revolutionary concept in H
       9- Deployment at production
             a- Deploy backend production app to EC2 instance
             b- Deploy frontend production static files to S3 bucket
+      10- Smoketest
+            a- run on backend
+            b- run on frontend
+            
 
 
 
