@@ -64,7 +64,7 @@ This is a project to develop the UdaPeople product, a revolutionary concept in H
       10- Smoketest
             a- run on backend
             b- run on frontend
-            
+
 
 
 
@@ -78,6 +78,8 @@ This is a project to develop the UdaPeople product, a revolutionary concept in H
               for the backend and [SCREENSHOT03-2] for the frontend.
           4. An alert from one of my failed builds. [SCREENSHOT04]          
           5. Appropriate job failure for infrastructure creation. [SCREENSHOT05] 
+          6. Appropriate job failure for the smoke test job. [SCREENSHOT06]
+          7. Successful rollback after a failed smoke test. [SCREENSHOT07]
 
 
 
