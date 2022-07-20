@@ -68,6 +68,7 @@ This is a project to develop the UdaPeople product, a revolutionary concept in H
             a- store last workflow ID exported by initial stack to be used later.
             b- Update initial stack cloudfront to point to the latest frontend bucket
             c- after successful update, delete all old stacks.
+      12- Prometheus
 
 
 # ScreenShots
