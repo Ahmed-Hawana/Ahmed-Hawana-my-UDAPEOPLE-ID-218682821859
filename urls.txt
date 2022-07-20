@@ -5,7 +5,7 @@
 
 
 3- Public URL for your CloudFront distribution (aka, your blue production front-end) [URL03]
-
+    https://djgv5a1phi3g1.cloudfront.net    
 
 4- Public URLs to deployed application back-end in EC2 [URL04]
 

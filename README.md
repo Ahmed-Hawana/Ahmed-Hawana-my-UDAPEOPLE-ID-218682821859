@@ -82,6 +82,15 @@ This is a project to develop the UdaPeople product, a revolutionary concept in H
           5. Appropriate job failure for infrastructure creation. [SCREENSHOT05] 
           6. Appropriate job failure for the smoke test job. [SCREENSHOT06]
           7. Successful rollback after a failed smoke test. [SCREENSHOT07]
+          8. Successful promotion job. [SCREENSHOT08]
+          
+          9.URLS 
+                  a- Public Url to GitHub repository [URL01_SCREENSHOT]
+                  b- Public URL for your S3 Bucket [URL02_SCREENSHOT]
+                  c- front-end application in CloudFront [URL03_SCREENSHOT], [URL03-2_SCREENSHOT]
+                  d- Public URLs to deployed application back-end in EC2 [URL04_SCREENSHOT]
+                  e- Public URL to your Prometheus Server [URL05_SCREENSHOT]
+          10. 
 
 
 
