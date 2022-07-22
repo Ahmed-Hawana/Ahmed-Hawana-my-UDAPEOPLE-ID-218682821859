@@ -2,13 +2,13 @@
     https://github.com/Ahmed-Hawana/Ahmed-Hawana-my-UDAPEOPLE-ID-218682821859
 
 2- Public URL for your S3 Bucket (aka, your green candidate front-end) [URL02]
-
+    https://udapeople-cfe0915.s3.amazonaws.com/index.html#/employees
 
 3- Public URL for your CloudFront distribution (aka, your blue production front-end) [URL03]
     https://djgv5a1phi3g1.cloudfront.net    
 
 4- Public URLs to deployed application back-end in EC2 [URL04]
-
+    http://ec2-44-201-125-225.compute-1.amazonaws.com:3030/api/status
 
 5- Public URL to your Prometheus Server [URL05]
-
+    http://ec2-44-203-71-38.compute-1.amazonaws.com:9090
